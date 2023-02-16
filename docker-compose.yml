@@ -11,7 +11,7 @@ services:
       labels:
       - 'com.centurylinklabs.watchtower.enable=true'
     development_branch:
-      image: phillipebarreto1/mywebclass
+      image: kaw393939/mywebclass:development
       container_name: development_branch
       pull_policy: always
       restart: always
